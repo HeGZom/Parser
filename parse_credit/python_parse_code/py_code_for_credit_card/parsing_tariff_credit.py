@@ -4,8 +4,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from config import local_path_chrome_driver
 
-chrome_driver_path = "C:\\chromedriver\\chromedriver.exe"  # Измените на путь к вашему chromedriver
+chrome_driver_path = local_path_chrome_driver # Измените на путь к вашему chromedriver
 
 urls = [
     'https://www.rsb.ru/cards/mir-130/#tariff',

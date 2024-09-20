@@ -1,10 +1,11 @@
 from library_for_download_pdf_docs.pdf_docs_parse import download_pdf_docs
+from config import local_path_chrome_driver,local_path_project
+import os
 
-
-download_directory = "C:\\Users\\Глеб\\PycharmProjects\\parse\\parse_credit\\collected_data\\pdf_doc_for_potreb_credit"  # Убедитесь, что эта директория существует
-driver_path='C:\\chromedriver\\chromedriver.exe'
+download_directory = os.path.join(local_path_project, "parse_credit", "collected_data", "pdf_doc_for_potreb_credit")
+driver_path=local_path_chrome_driver
 url = "https://www.rsb.ru/potrebitelskiy-kredit/#documents"
-""
+
 download_pdf_docs(url, download_directory,driver_path)
 
 

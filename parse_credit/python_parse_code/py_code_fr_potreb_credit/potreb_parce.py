@@ -4,8 +4,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-chrome_driver_path = "C:\\chromedriver\\chromedriver.exe"  # изменить путь на свой chromedriver
+from config import *
+#chrome_driver_path = "C:\\chromedriver\\chromedriver.exe"  # изменить путь на свой chromedriver
+chrome_driver_path = local_path_chrome_driver
 url = 'https://www.rsb.ru/potrebitelskiy-kredit/#descripion'
 
 
@@ -71,7 +72,6 @@ def parse_service_info(driver, url, output_file):
 
 
 def main():
-    # Определение пути на два уровня выше текущего скрипта
     script_dir = os.path.dirname(__file__)  # Путь к директории, где находится скрипт
     parent_dir = os.path.abspath(os.path.join(script_dir, '..', '..'))  # Два уровня выше
     output_dir = os.path.join(parent_dir, "collected_data")

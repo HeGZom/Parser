@@ -4,8 +4,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from config import *
 
-chrome_driver_path = "C:\\chromedriver\\chromedriver.exe"  # изменить путь на свой chromedriver
+chrome_driver_path = local_path_chrome_driver # изменить путь на свой chromedriver
 url = 'https://www.rsb.ru/credits/#tariffs'
 
 name_of_info = [
