@@ -5,8 +5,6 @@
 Скачайте и установите ChromeDriver, убедитесь, что он совместим с вашей версией Chrome. Поместите его в переменную local_path_chrome_driver в файле config.py:
 Также в файле config.py укажите путь к вашему проекту в переменной local_path_project
 
-Если вы хотите переименовать документы, запустите соответствующие скрипты:
-
 Для переименования PDF и DOCX файлов запустите:
 python rename_pdf_docx.py
 python rename_pdf_potreb.py
