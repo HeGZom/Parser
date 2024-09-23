@@ -72,6 +72,22 @@ def parse_info(driver, output_file):
     except Exception as e:
         save_to_file(f"Ошибка при загрузке или парсинге страницы: {e}", output_file)
 
+def parse_repayment_info(driver, url, output_file):
+    driver.get(url)
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, ".list.block_pl_0"))
+        )
+
+        repayment_options = driver.find_elements(By.CSS_SELECTOR, ".list.block_pl_0 li")
+        save_to_file("\nСпособы погашения кредита:", output_file)
+
+        for option in repayment_options:
+            save_to_file(f"- {option.text}", output_file)
+
+    except Exception as e:
+        save_to_file(f"Ошибка при парсинге способов погашения кредита: {e}", output_file)
+
 def main():
     # Определение пути на два уровня выше текущего скрипта
     script_dir = os.path.dirname(__file__)  # Путь к директории, где находится скрипт
@@ -86,6 +102,9 @@ def main():
         save_to_file(name_of_info[0], output_file)
         parse_bricks_info(driver, url, output_file)
         parse_info(driver, output_file)
+
+        repayment_url = 'https://www.rsb.ru/credits/#repay'
+        parse_repayment_info(driver, repayment_url, output_file)
     finally:
         driver.quit()
 

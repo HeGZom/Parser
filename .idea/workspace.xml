@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42608c54-b4e0-4ddd-bd00-27592e0d28f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitingnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitingnore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_credit/collected_data/pdf_doc_for_credit/document_7454_2024-09-06.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_credit/collected_data/credit_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parse_credit/collected_data/credit_info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit/credit_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit/credit_parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit/parce_credit_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit/parce_credit_pdf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit/rename_pdf_docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit/rename_pdf_docx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit_card/parsing_tariff_credit.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit_card/parsing_tariff_credit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit/potreb_parce.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit/potreb_parce.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit/potreb_pdf_parce.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit/potreb_pdf_parce.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,43 +33,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.additional_tarriff (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.credit_parce (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.credit_parce.executor&quot;: &quot;Run&quot;,
-    &quot;Python.credit_parce_pdf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.credit_parce_pdf_up.executor&quot;: &quot;Run&quot;,
-    &quot;Python.credit_parse (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.parce_credit_pdf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.parse.executor&quot;: &quot;Run&quot;,
-    &quot;Python.parsing_tariff_credit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.parsing_tariff_credit1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pdf_donwload.executor&quot;: &quot;Run&quot;,
-    &quot;Python.potreb_credit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.potreb_parce.executor&quot;: &quot;Run&quot;,
-    &quot;Python.potreb_pdf_parce.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rename_pdf_docx (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.rename_pdf_docx.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rename_pdf_potreb.executor&quot;: &quot;Run&quot;,
-    &quot;Python.req.executor&quot;: &quot;Run&quot;,
-    &quot;Python.save_dasda.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tarriff.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_save.executor&quot;: &quot;Run&quot;,
-    &quot;Python.transl.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Глеб/PycharmProjects/parse/parse_credit&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.additional_tarriff (1).executor": "Run",
+    "Python.credit_parce (1).executor": "Run",
+    "Python.credit_parce.executor": "Run",
+    "Python.credit_parce_pdf.executor": "Run",
+    "Python.credit_parce_pdf_up.executor": "Run",
+    "Python.credit_parse (1).executor": "Run",
+    "Python.credit_parse.executor": "Run",
+    "Python.parce_credit_pdf.executor": "Run",
+    "Python.parse.executor": "Run",
+    "Python.parsing_tariff_credit.executor": "Run",
+    "Python.parsing_tariff_credit1.executor": "Run",
+    "Python.pdf_donwload.executor": "Run",
+    "Python.potreb_credit.executor": "Run",
+    "Python.potreb_parce.executor": "Run",
+    "Python.potreb_pdf_parce.executor": "Run",
+    "Python.rename_pdf_docx (1).executor": "Run",
+    "Python.rename_pdf_docx.executor": "Run",
+    "Python.rename_pdf_potreb.executor": "Run",
+    "Python.req.executor": "Run",
+    "Python.save_dasda.executor": "Run",
+    "Python.tarriff.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_save.executor": "Run",
+    "Python.transl.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Глеб/PycharmProjects/parse/parse_credit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Глеб\PycharmProjects\parse\parse_credit" />
@@ -87,7 +83,30 @@
       <recent name="C:\Users\Глеб\PycharmProjects\parse\trash_test_py_" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.parce_credit_pdf">
+  <component name="RunManager" selected="Python.credit_parse">
+    <configuration name="credit_parse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="parse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit/credit_parse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="parce_credit_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="parse" />
       <option name="ENV_FILES" value="" />
@@ -103,29 +122,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit/parce_credit_pdf.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="potreb_parce" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="parse" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit/potreb_parce.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.credit_parse" />
         <item itemvalue="Python.parce_credit_pdf" />
         <item itemvalue="Python.rename_pdf_docx" />
         <item itemvalue="Python.potreb_pdf_parce" />
         <item itemvalue="Python.rename_pdf_potreb" />
-        <item itemvalue="Python.potreb_parce" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +241,9 @@
       <workItem from="1726827311393" duration="2758000" />
       <workItem from="1726831008806" duration="4541000" />
       <workItem from="1726837604578" duration="1958000" />
-      <workItem from="1726839575716" duration="2817000" />
+      <workItem from="1726839575716" duration="3905000" />
+      <workItem from="1727025689224" duration="6000" />
+      <workItem from="1727070855606" duration="348000" />
     </task>
     <servers />
   </component>
@@ -253,26 +251,27 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/parse$credit_parce_pdf.coverage" NAME="credit_parce_pdf Coverage Results" MODIFIED="1726662089716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code" />
     <SUITE FILE_PATH="coverage/parse$potreb_pdf_parce.coverage" NAME="potreb_pdf_parce Coverage Results" MODIFIED="1726841708918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit" />
     <SUITE FILE_PATH="coverage/parse$rename_pdf_docx__1_.coverage" NAME="rename_pdf_docx (1) Coverage Results" MODIFIED="1726683787269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code" />
     <SUITE FILE_PATH="coverage/parse$additional_tarriff__1_.coverage" NAME="additional_tarriff (1) Coverage Results" MODIFIED="1726579929782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/parse$credit_parse.coverage" NAME="credit_parse Coverage Results" MODIFIED="1727071003266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit" />
     <SUITE FILE_PATH="coverage/parse$transl.coverage" NAME="transl Coverage Results" MODIFIED="1726585822861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/parse$credit_parce__1_.coverage" NAME="credit_parce (1) Coverage Results" MODIFIED="1726683707725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code" />
-    <SUITE FILE_PATH="coverage/parse$save_dasda.coverage" NAME="save_dasda Coverage Results" MODIFIED="1726835451354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit_card" />
-    <SUITE FILE_PATH="coverage/parse$rename_pdf_docx.coverage" NAME="rename_pdf_docx Coverage Results" MODIFIED="1726841764543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit" />
-    <SUITE FILE_PATH="coverage/parse$parce_credit_pdf.coverage" NAME="parce_credit_pdf Coverage Results" MODIFIED="1726841768929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit" />
     <SUITE FILE_PATH="coverage/parse$credit_parce.coverage" NAME="credit_parce Coverage Results" MODIFIED="1726829578410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code_for_credit" />
     <SUITE FILE_PATH="coverage/parse$req.coverage" NAME="req Coverage Results" MODIFIED="1726575636937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/parse$credit_parse__1_.coverage" NAME="credit_parse (1) Coverage Results" MODIFIED="1726836064341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit" />
     <SUITE FILE_PATH="coverage/parse$rename_pdf_potreb.coverage" NAME="rename_pdf_potreb Coverage Results" MODIFIED="1726841705310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit" />
-    <SUITE FILE_PATH="coverage/parse$credit_parce_pdf_up.coverage" NAME="credit_parce_pdf_up Coverage Results" MODIFIED="1726727644475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code_for_credit" />
-    <SUITE FILE_PATH="coverage/parse$potreb_credit.coverage" NAME="potreb_credit Coverage Results" MODIFIED="1726741528548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trash_test_py_" />
     <SUITE FILE_PATH="coverage/parse$test_save.coverage" NAME="test_save Coverage Results" MODIFIED="1726835024740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit" />
     <SUITE FILE_PATH="coverage/parse$test.coverage" NAME="test Coverage Results" MODIFIED="1726680916283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code" />
-    <SUITE FILE_PATH="coverage/parse$parsing_tariff_credit.coverage" NAME="parsing_tariff_credit Coverage Results" MODIFIED="1726835887483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit_card" />
     <SUITE FILE_PATH="coverage/parse$parsing_tariff_credit1.coverage" NAME="parsing_tariff_credit1 Coverage Results" MODIFIED="1726645427050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/parse$pdf_donwload.coverage" NAME="pdf_donwload Coverage Results" MODIFIED="1726660605234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit" />
+    <SUITE FILE_PATH="coverage/parse$credit_parce_pdf.coverage" NAME="credit_parce_pdf Coverage Results" MODIFIED="1726662089716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code" />
+    <SUITE FILE_PATH="coverage/parse$credit_parce__1_.coverage" NAME="credit_parce (1) Coverage Results" MODIFIED="1726683707725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code" />
+    <SUITE FILE_PATH="coverage/parse$save_dasda.coverage" NAME="save_dasda Coverage Results" MODIFIED="1726835451354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit_card" />
+    <SUITE FILE_PATH="coverage/parse$rename_pdf_docx.coverage" NAME="rename_pdf_docx Coverage Results" MODIFIED="1726841764543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit" />
+    <SUITE FILE_PATH="coverage/parse$parce_credit_pdf.coverage" NAME="parce_credit_pdf Coverage Results" MODIFIED="1726841768929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit" />
+    <SUITE FILE_PATH="coverage/parse$credit_parce_pdf_up.coverage" NAME="credit_parce_pdf_up Coverage Results" MODIFIED="1726727644475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/py_code_for_credit" />
+    <SUITE FILE_PATH="coverage/parse$potreb_credit.coverage" NAME="potreb_credit Coverage Results" MODIFIED="1726741528548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trash_test_py_" />
+    <SUITE FILE_PATH="coverage/parse$parsing_tariff_credit.coverage" NAME="parsing_tariff_credit Coverage Results" MODIFIED="1726835887483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_for_credit_card" />
     <SUITE FILE_PATH="coverage/parse$potreb_parce.coverage" NAME="potreb_parce Coverage Results" MODIFIED="1726836150033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/parse_credit/python_parse_code/py_code_fr_potreb_credit" />
     <SUITE FILE_PATH="coverage/parse$parse.coverage" NAME="parse Coverage Results" MODIFIED="1726569837640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/parse$tarriff.coverage" NAME="tarriff Coverage Results" MODIFIED="1726578279940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
