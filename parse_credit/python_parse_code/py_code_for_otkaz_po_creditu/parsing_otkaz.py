@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import *
+from library_for_common_parse_functions.common_parser_functions import initialize_driver,clear_file, save_to_file
 
 chrome_driver_path = local_path_chrome_driver
 url = 'https://www.rsb.ru/credits/otkaz-po-kreditu/'
@@ -12,15 +13,6 @@ url = 'https://www.rsb.ru/credits/otkaz-po-kreditu/'
 name_of_info = [
     'Информация о отказе по заявке на кредитный продукт',
 ]
-
-def initialize_driver():
-    service = Service(chrome_driver_path)
-    return webdriver.Chrome(service=service)
-
-def save_to_file(text, filename):
-    with open(filename, 'a', encoding='utf-8') as f:
-        f.write(text + '\n')
-
 
 def parse_credit_rejection_info(driver, url, output_file):
     driver.get(url)
@@ -77,7 +69,8 @@ def main():
 
     output_file = os.path.join(output_dir, "otkaz_po_credit_info.txt")
 
-    driver = initialize_driver()
+    clear_file(output_file)
+    driver = initialize_driver(chrome_driver_path)
     try:
         save_to_file(name_of_info[0], output_file)
         parse_credit_rejection_info(driver, url, output_file)

@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import local_path_chrome_driver
+from library_for_common_parse_functions.common_parser_functions import initialize_driver
 
 chrome_driver_path = local_path_chrome_driver # Измените на путь к вашему chromedriver
 
@@ -27,11 +28,6 @@ name_of_credit_card = [
     'Mir Supreme',
     'Кредитная карта UnionPay'
 ]
-
-
-def initialize_driver():
-    service = Service(chrome_driver_path)
-    return webdriver.Chrome(service=service)
 
 
 def parse_tariff(driver, url, file):
@@ -74,7 +70,7 @@ def main():
     output_dir = os.path.join(parent_dir, "collected_data", "credit_cards_tariffs")
     os.makedirs(output_dir, exist_ok=True)
 
-    driver = initialize_driver()
+    driver = initialize_driver(chrome_driver_path)
     try:
         for name_credit, url in zip(name_of_credit_card, urls):
             # Создание имени файла для сохранения информации о тарифе

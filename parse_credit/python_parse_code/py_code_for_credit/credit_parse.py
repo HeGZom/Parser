@@ -1,25 +1,16 @@
 import os
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import *
-
+from library_for_common_parse_functions.common_parser_functions import initialize_driver,clear_file, save_to_file
 chrome_driver_path = local_path_chrome_driver # изменить путь на свой chromedriver
+
 url = 'https://www.rsb.ru/credits/#tariffs'
 
 name_of_info = [
     'Информация о кредите в Банке Русский стандарт',
 ]
-
-def initialize_driver():
-    service = Service(chrome_driver_path)
-    return webdriver.Chrome(service=service)
-
-def save_to_file(text, filename):
-    with open(filename, 'a', encoding='utf-8') as f:
-        f.write(text + '\n')
 
 def parse_bricks_info(driver, url, output_file):
     driver.get(url)
@@ -97,7 +88,9 @@ def main():
 
     output_file = os.path.join(output_dir, "credit_info.txt")
 
-    driver = initialize_driver()
+    clear_file(output_file) #очищаем файл от информации в нем
+
+    driver = initialize_driver(chrome_driver_path)
     try:
         save_to_file(name_of_info[0], output_file)
         parse_bricks_info(driver, url, output_file)

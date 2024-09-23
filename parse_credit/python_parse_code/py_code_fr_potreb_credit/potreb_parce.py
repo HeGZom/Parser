@@ -1,23 +1,14 @@
 import os
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import *
+from library_for_common_parse_functions.common_parser_functions import initialize_driver,clear_file, save_to_file
+
 #chrome_driver_path = "C:\\chromedriver\\chromedriver.exe"  # изменить путь на свой chromedriver
 chrome_driver_path = local_path_chrome_driver
 url = 'https://www.rsb.ru/potrebitelskiy-kredit/#descripion'
 
-
-def initialize_driver():
-    service = Service(chrome_driver_path)
-    return webdriver.Chrome(service=service)
-
-
-def save_to_file(text, filename):
-    with open(filename, 'a', encoding='utf-8') as f:
-        f.write(text + '\n')
 
 
 def parse_credit_info(driver, url, output_file):
@@ -79,7 +70,9 @@ def main():
 
     output_file = os.path.join(output_dir, "potreb_credit_info.txt")
 
-    driver = initialize_driver()
+    clear_file(output_file)
+
+    driver = initialize_driver(chrome_driver_path)
     try:
         parse_credit_info(driver, url, output_file)
         parse_service_info(driver, url, output_file)
